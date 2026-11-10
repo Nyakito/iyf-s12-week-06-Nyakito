@@ -1,0 +1,6 @@
+# Real OpenWeatherMap key. Copy config.example.js to config.js locally.
+# GitHub Actions writes this file at deploy time from OPENWEATHER_API_KEY.
+config.js
+
+.DS_Store
+node_modules/
