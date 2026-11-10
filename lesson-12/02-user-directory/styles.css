@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef4ff, #dfeeff);
+  color: #1f2937;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+#error {
+  margin: 16px 0;
+  padding: 12px 16px;
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  border-radius: 10px;
+  color: #b91c1c;
+}
+
+#loading {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#users-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.user-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.user-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.user-card p {
+  margin: 8px 0;
+}
