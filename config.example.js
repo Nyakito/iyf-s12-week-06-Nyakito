@@ -1,1 +1,1 @@
-window.API_KEY = "";
+window.API_KEY = "72b6e60471f823c9c03f78950be48c70";
